@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Интернет-магазин одежды</title>
+        <link rel="stylesheet" href="style3.css">
+        <link rel="stylesheet" href="print.css" media="print">
+        <link rel="stylesheet" href="oplata.html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="Ie=edge">
+        <!-- говорит браузеру Internet Explorer, что он должен работать в режиме совместимости с самой последней его версией.-->
+    </head>
+<body>
+    <header class="header">
+        <div class="container d-flex">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>   
+            </nav>
+            <div class="profile">
+                <a href="oplata.html">Перейти к оплате</a>
+            </div>
+        </div>
+    </header>
+    <main class="container d-flex">
+        <aside class="sidebar">
+            <form>
+                <fieldset>
+                    <legend>Производители</legend>
+                    <div class="form-group">
+                        <input type="checkbox" name="manufacturer" id="manufacturer1">
+                        <label for="manufacturer1">Россия</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="manufacturer" id="manufacturer2">
+                        <label for="manufacturer2">Южная Корея</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="manufacturer" id="manufacturer3">
+                        <label for="manufacturer3">Китай</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="manufacturer" id="manufacturer4">
+                        <label for="manufacturer4">США</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="manufacturer" id="manufacturer5">
+                        <label for="manufacturer5">Италия</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Группы товаров</legend>
+                    <div class="form-group">
+                        <input type="radio" name="group" id="group1">
+                        <label for="group1">Платья</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="group" id="group2">
+                        <label for="group2">Обувь</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="group" id="group3">
+                        <label for="group3">Деловые костюмы</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="group" id="group4">
+                        <label for="group4">Аксессуары</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="group" id="group5">
+                        <label for="group5">Сумки</label>
+                    </div>
+                </fieldset>
+                <button class="btn">Применить фильтры</button>
+            </form>
+        </aside>
+        <div class="page-content">
+            <h1 class="products-header">Женская одежда, обувь и аксессуары</h1>
+            <div class="products">
+                <div class="product-card">
+                        <div class="product-image">
+                            <img src="picture/dress1.jpg" alt="product1">
+                        </div>
+                        <div class="product-details">
+                            
+                            <p class="product-info">Сапфировое платье с поясом-молнией и блёстками</p>
+                            <div class="action">
+                                <button class="buy-btn">
+                                    <span class="price">8900 &#8381;</span><span class="buy">В корзину</span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="picture/cloth1.jpg" alt="product2">
+                    </div>
+                    <div class="product-details">
+                        <p class="product-info">Бордовый бизнес-костюм. Пиджак + юбка</p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">4000 &#8381;</span><span class="buy">В корзину</span>
+                            </button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="picture/dress2.jpg" alt="product3">
+                </div>
+                <div class="product-details">
+                    <p class="product-info"> Фиолетовое платье в пол </p>
+                    <div class="action">
+                        <button class="buy-btn">
+                            <span class="price">6500 &#8381;</span><span class="buy">в корзину</span>
+                        </button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="picture/cloth2.webp" alt="product4">
+            </div>
+            <div class="product-details">
+                <p class="product-info">Бизнес-костюм белый. Пиджак + брюки</p>
+                <div class="action">
+                    <button class="buy-btn">
+                        <span class="price">5699 &#8381;</span><span class="buy">В корзину</span>
+                    </button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="picture/dress3.jpg" alt="product5">
+        </div>
+        <div class="product-details">
+            <p class="product-info">Платье средней длины. Цвет: пыльная пудра</p>
+            <div class="action">
+                <button class="buy-btn">
+                    <span class="price">5250 &#8381;</span><span class="buy">В корзину</span>
+                </button>
+        </div>
+    </div>
+</div>
+<div class="product-card">
+    <div class="product-image">
+        <img src="picture/cloth3.webp" alt="product6">
+    </div>
+    <div class="product-details">
+        <p class="product-info">Бизнес-костюм красный. Пиджак + брюки</p>
+        <div class="action">
+            <button class="buy-btn">
+                <span class="price">5375 &#8381;</span><span class="buy">В корзину</span>
+            </button>
+    </div>
+</div>
+</div>
+<div class="product-card">
+    <div class="product-image">
+        <img src="picture/dress4.jpg" alt="product7">
+    </div>
+    <div class="product-details">
+        <p class="product-info">Летнее платье средней длины, голубое</p>
+        <div class="action">
+            <button class="buy-btn">
+                <span class="price">2299 &#8381;</span><span class="buy">В корзину</span>
+            </button>
+    </div>
+</div>
+</div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="picture/dress5.jpg" alt="product8">
+                </div>
+                <div class="product-details">
+                    <p class="product-info">Платье летнее средней длины, черное</p>
+                    <div class="action">
+                        <button class="buy-btn">
+                            <span class="price">1999 &#8381;</span><span class="buy">В корзину</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="picture/shoes1.avif" alt="product9">
+                    </div>
+                    <div class="product-details">
+                        <p class="product-info">Туфли на высоком каблуке, чёрные</p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">4700 &#8381;</span><span class="buy">В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="picture/shoes2.png" alt="product9">
+                    </div>
+                    <div class="product-details">
+                        <p class="product-info">Кроссовки теннисные летние на высокой платформе, розовые</p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">7200 &#8381;</span><span class="buy">В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="foot">
+            <div class="adress">
+                <p>улица Мира, с51, Мытищи, Московская область</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
