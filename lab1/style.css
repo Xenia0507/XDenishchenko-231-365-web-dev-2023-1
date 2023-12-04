@@ -1,0 +1,56 @@
+ul li{
+  display: inline;
+}
+ul{
+  word-spacing: 15px;
+  text-align: center;
+}
+
+ol{
+  line-height: 1.5;
+}
+ol li{
+  margin-bottom: 1em;
+}
+
+p{
+  text-align: justify;
+  
+}
+body{
+  font-family:'AR One Sans';
+  font-size: 20px;
+}
+header{
+  background: #FFCC00; 
+  height: 50px;
+}
+
+footer{
+  background-color: #BAFF39;
+}
+body{
+  background-color: #FAF5E9;
+}
+
+h2{
+  background-color: #BAFF39;
+}
+h3{
+  background-color: #F9B872;
+}
+p1{
+  text-align: justify;
+}
+photo{
+  text-align: center;
+}
+
+table{
+  border-color:  grey; 
+  text-align: center; 
+  width: 100%;
+}
+table, th,td{
+  border: 1px solid grey;
+}
