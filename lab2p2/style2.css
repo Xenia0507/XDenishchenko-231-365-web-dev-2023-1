@@ -1,0 +1,12 @@
+body{
+    background: url(picture2p2/kartinka.jpg) no-repeat;
+    background-size: 100%; 
+}
+
+label{
+    color: white;
+}
+fieldset{
+    width: 200px;
+    margin: auto;
+}
